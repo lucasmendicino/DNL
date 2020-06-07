@@ -4,6 +4,20 @@
 # BUG para corregir:
 # No encuentra nulclinas completamente verticales
 # del tipo x = ...
+"""
+Hola Agus, soy Lucas Mendicino de DNL, cuando trate de correr el codigo no me andaba y fue debido a 2 cosas (te lo comento
+igual son pavadas)
+1) la funcion singularities de sympy me decia que requeria 2 argumentos y estaba recibiendo 3, por lo que saque el 
+"Reals" que es algo que en la libreria vi que si sirve si tomas una funcion dentro de singularities (del estilo
+is_increasing por ejemplo), pero como esta definido parece que singularities solo toma expresion y simbolo. Lo saque 
+de aca http://www.caacle.com/sympy-docs-html-1.4/_modules/sympy/calculus/singularities.html
+2) los colores en formato RGBA no me los entendia python y tuve que cambiar todo al estilo "blue" "C0" y esas cosas para
+que corra.
+
+Son boludeces pero por ahi a vos asi como esta te corre y puede ser por alguna incompatibilidad de actualizaciones que
+tengamos o algo asi, yo lo corri en un notebook de jupyter capaz tiene algo que ver.
+Te felicito por los codigos, yo habia empezado algo pero mucho mas ineficiente, muchas gracias!
+"""
 
 import matplotlib.pyplot as plt
 import numpy as np
